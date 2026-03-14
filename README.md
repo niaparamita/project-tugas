@@ -6,7 +6,8 @@ Nim: 2501010376
    Array merupakan sebuah struktur data yang dapat menyimpan kumpulan data dengan tipe data yang sama, kumpulan data pada array tersusun secara linear. kumpulan data tersebut disimpan di memori secara berurutan, dan dapat diakses menggunakan indeks, dengan indeks dimulai dari 0.
     
 2. Screenshot Hasil Eksekusi:
-    ![Image Alt]()
+    ![Image Alt](https://github.com/niaparamita/project-tugas/blob/87a794b47778d35d253643919ae91aa41b51eb5d/Screenshot%202026-03-14%20213902.png)
+   
     ![Image Alt]()
    
 4. Analisis Kompleksitas:
