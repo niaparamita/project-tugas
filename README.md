@@ -8,7 +8,7 @@ Nim: 2501010376
 2. Screenshot Hasil Eksekusi:
     ![Image Alt](https://github.com/niaparamita/project-tugas/blob/87a794b47778d35d253643919ae91aa41b51eb5d/Screenshot%202026-03-14%20213902.png)
    
-    ![Image Alt]()
+    ![Image Alt](https://github.com/niaparamita/project-tugas/blob/main/Screenshot%202026-03-14%20213913.png?raw=true)
    
 4. Analisis Kompleksitas:
 
