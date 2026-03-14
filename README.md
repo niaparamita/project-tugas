@@ -1,3 +1,6 @@
+Nama: Ni Made Nia Paramita
+Nim: 2501010376
+
 # project-tugas_1_Array
 1. Penjelasan Konsep Array:
    Array merupakan sebuah struktur data yang dapat menyimpan kumpulan data dengan tipe data yang sama, kumpulan data pada array tersusun secara linear. kumpulan data tersebut disimpan di memori secara berurutan, dan dapat diakses menggunakan indeks, dengan indeks dimulai dari 0.
