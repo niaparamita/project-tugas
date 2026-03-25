@@ -1,0 +1,52 @@
+import sys
+
+
+class Node:
+    def __init__  (self, data):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    #Menambahkan data di akhir
+    def append (self, data):
+        new_node = Node(data)
+
+        if not self.head:
+            self.head = new_node
+            return
+
+        current = self.head
+        while current.next:
+            current = current.next
+
+        current.next = new_node
+
+    #Menambahkan di Awal
+    def insert_awal(self, data):
+        new_node = Node(data)
+        new_node.next = self.head
+        self.head = new_node
+
+
+    def tampilkan(self):
+        current = self.head
+        while current:
+            print(current.data, end=" -> " )
+            current = current.next
+        print("None")
+
+
+# Contoh Penggunaan
+lst = LinkedList()
+lst.append(30)
+lst.append(20)
+lst.insert_awal(60)
+
+lst.tampilkan()
+
+print("Ukuran Node : ", sys.getsizeof(lst) , "bytes")
+
+
