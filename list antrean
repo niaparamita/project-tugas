@@ -1,0 +1,40 @@
+  class Node:
+    def __init__(self, nomor):
+        self.nomor = nomor
+        self.next = None
+
+class AntreanSederhana:
+    def __init__(self):
+        self.head = None
+
+    # 1. Insert nomor
+    def tambah_pasien(self, nomor):
+        baru = Node(nomor)
+        if self.head is None:
+            self.head = baru
+        else:
+            arus = self.head
+            while arus.next:
+                arus = arus.next
+            arus.next = baru
+        print(f"Pasien {nomor} masuk antrean.")
+
+    # 2. Traversal
+    def lihat_daftar(self):
+        print("\nDAFTAR ANTREAN SAAT INI:")
+        arus = self.head
+        while arus:
+            print(f"Nomor: {arus.nomor}")
+            arus = arus.next
+        print("------------------------")
+
+#tes antrean
+klinik = AntreanSederhana()
+
+# Pasien datang
+klinik.tambah_pasien("001")
+klinik.tambah_pasien("002")
+klinik.tambah_pasien("003")
+
+# cek antrean
+klinik.lihat_daftar()
